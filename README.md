@@ -31,3 +31,5 @@ few screenshots of APK in my phone are attached
 Finally
 ![image](https://user-images.githubusercontent.com/40751955/143780377-5d6e7899-43e5-4d68-94f7-9f93f08216b8.png)
 
+
+# for any issues contact me on 9521752170 and niranjan4886rajveer@gmail.com
