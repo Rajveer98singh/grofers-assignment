@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grofers Referral</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="log_out_conf">Are you sure you want to log out?</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="yes">Yes</string>
+    <string name="exit_conf">Are you sure you want to exit?</string>
+    <string name="preference_file_name">preference</string>
+</resources>

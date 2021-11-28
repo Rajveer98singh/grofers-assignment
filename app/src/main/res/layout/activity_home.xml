@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".activities.HomeActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimaryDark"
+            app:backgroundTint="@null"
+            app:titleTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtEnrollmentStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enrolled in Referral Program"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/toolbar"
+                />
+        <RelativeLayout
+            android:id="@+id/refCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEnrollmentStatus"
+            >
+            <TextView
+                android:id="@+id/txtRefCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_shape"
+                android:text="Referral Code"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+
+                />
+            <ImageView
+                android:layout_toRightOf="@id/txtRefCode"
+                android:id="@+id/codeCopy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_copy1"
+                />
+        </RelativeLayout>
+            <TextView
+                android:id="@+id/txtReferred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You have been referred By "
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/refCode"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtRefCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You have referred .. number of people"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtReferred"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/user1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User 1"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtRefCount"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/user2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User 2"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/user1"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/user3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User 3"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/user2"
+                android:textColor="@color/black"
+                /><TextView
+            android:id="@+id/user4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User 4"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/user3"
+            android:textColor="@color/black"
+            /><TextView
+            android:id="@+id/user5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User 5"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/user4"
+            android:textColor="@color/black"
+            />
+            <TextView
+                android:id="@+id/txtAmountEarned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Earned"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/user5"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtNextTarget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your next target is..."
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txtAmountEarned"
+                android:textColor="@color/black"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Enroll/Withdraw"
+                android:textColor="#ffffff"
+                android:id="@+id/button_Action"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:background="@drawable/default_button_bg"
+                app:backgroundTint="@null"
+                android:layout_below="@id/txtNextTarget"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/menu_drawer"
+        android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

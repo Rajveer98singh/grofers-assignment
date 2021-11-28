@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "270898812909",
+    "project_id": "grofers-referral-45125",
+    "storage_bucket": "grofers-referral-45125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270898812909:android:257c38f4b69c304682b9e4",
+        "android_client_info": {
+          "package_name": "com.example.grofersreferral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270898812909-h4vf6e6i0hc3cc0lp0r96gpvp80obhtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grofersreferral",
+            "certificate_hash": "d58c5d23ef93e2b5466f3936ffe6be97d26f2448"
+          }
+        },
+        {
+          "client_id": "270898812909-gl2a4mmsg54f35d6339u8fp2r03acekk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3fjw-oHDuDh2FiB4HoVcuuB6hdXkJLPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270898812909-gl2a4mmsg54f35d6339u8fp2r03acekk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
